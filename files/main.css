@@ -1,0 +1,59 @@
+
+body {
+    position: relative;
+    font-family: georgia, serif;
+    margin: 0;
+    color: #777;
+    letter-spacing: -0.05em;
+    font-size: 20px;
+    background: url(background.jpg) repeat-x top left;
+}
+
+a, a:visited {
+    color: #777;
+}
+
+p {
+    margin: 1em 0 1.5em;
+    text-indent: 0.5em;
+    line-height: 1.4em;
+}
+
+h2 {
+    font-size: 1.5em;
+    letter-spacing: -0.06em;
+}
+
+canvas {
+    display: block;
+    width: 650px;
+    margin: 0 auto 20px;
+    cursor: crosshair;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-325px;
+    margin-top:-196.5px;
+    border:1px solid #111;
+}
+
+.instructions, .social {
+    text-align: center;
+    color: #258DC9;
+}
+
+.canvas_wrapper {
+	height:100vh;
+	min-height:393px;
+	position:relative;
+}
+
+@media screen and (max-height:700px) {
+	canvas {
+	    position:relative;
+	    left:auto;
+	    top:auto;
+	    margin-left:0;
+	    margin-top:0;
+	}
+}
